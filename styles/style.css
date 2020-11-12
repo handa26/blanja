@@ -28,6 +28,7 @@ a {
   text-decoration: none;
 }
 
+/* === Buttons === */
 .btn-group {
 	display: flex;
 	justify-content: center;
@@ -67,18 +68,18 @@ a {
 }
 
 /* ================================================== */
-/* LOGIN SECTION */
+/* LOGIN/SIGN IN/RESET SECTION */
 /* ================================================== */
-#login-container {
-	height: 100vh;
+#form-container {
+	margin: 100px 100px;
 	margin-top: 85px;
 	text-align: center;
 }
 
-#login-container h2 {
+#form-container h2 {
 	margin-top: 50px;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 18px;
 }
@@ -98,8 +99,9 @@ a {
 	line-height: 20px;
 }
 
-.login-form {
-	width: 60%;
+/* === Form === */
+.fill-form {
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -138,7 +140,7 @@ input[type="name"],
 input[type="tel"],
 input[type="text"] {
 	width: 400px;
-  padding: 7px;
+  padding: 7px 0px 7px 15px;
   height: 48px;
 	border-radius: 3px;
 	border: 1px solid #ccc;
