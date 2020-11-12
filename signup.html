@@ -4,8 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blanja | Register</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <h1>Register Account</h1>
+  <!-- SIGNUP SECTION -->
+  <section id="login-container">
+    <div class="row">
+      <div class="logo">
+        <img src="assets/blanja-logo.svg" alt="Blanja Logo">
+        <h1>Blanja</h1>
+      </div>
+      <h2>Please sign up with your account</h2>
+      <div class="btn-group">
+        <a href="#" class="btn btn-ghost">Customer</a>
+        <a href="#" class="btn btn-full">Seller</a>
+      </div>
+      <div class="form-section">
+        <form class="login-form">
+          <div class="col-input">
+            <input type="text" name="name" id="name" placeholder="Name">
+          </div>
+          <div class="col-input">
+            <input type="email" name="email" id="email" placeholder="Email">
+          </div>
+          <div class="col-input">
+            <input type="tel" name="telphone" id="telphone" placeholder="Phone Number">
+          </div>
+          <div class="col-input">
+            <input type="text" name="store-name" id="store-name" placeholder="Store Name">
+          </div>
+          <div class="col-input">
+            <input type="password" name="password" id="password" placeholder="Password">
+          </div>
+          <div class="submit">
+            <a class="submit-btn" href="confirm-login.html" type="submit">REGISTER</a>
+          </div>
+        </form>
+      </div>
+      <p class="register">Already have a Blanja account? <a href="login.html">Login</a></p>
+    </div>
+  </section>
 </body>
 </html>
