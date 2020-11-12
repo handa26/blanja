@@ -68,7 +68,7 @@ a {
 }
 
 /* ================================================== */
-/* LOGIN/SIGN IN/RESET SECTION */
+/* LOGIN/SIGN text SECTION */
 /* ================================================== */
 #form-container {
 	margin: 100px 100px;
@@ -121,12 +121,12 @@ a {
   color:#db3022;
 }
 
-.register {
+.text {
   font-size: 14px;
   margin-top: 25px;
 }
 
-.register a {
+.text a {
   color:#db3022;
 }
 
