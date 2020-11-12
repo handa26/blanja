@@ -1,3 +1,13 @@
+/* ================================================== */
+/* BASIC SETUP */
+/* ================================================== */
+section {
+  height: 900px;
+  background-color: #E5E5E5;
+}
+
+
+/* === Navbar === */
 .navbar-light .navbar-brand {
 	color: #db3022;
 	font-weight: 700;
@@ -7,6 +17,20 @@
   box-shadow: 1px 1px 1px 1px #adadad3f;
 }
 
+.input-group {
+  width: 501px;
+}
+
+.input-group-text {
+  border-radius: 200px;
+}
+
+.form-control {
+  border-radius: 200px;
+}
+
+
+/* === Buttons === */
 .btn {
   font-size: 14px;
   width: 100px;
@@ -33,4 +57,9 @@
   border: 1px solid #db3022;
 	background-color: #db3022;
 	color: #fff;
+}
+
+.btn-filter {
+  width: 40px;
+  border-radius: 12px;
 }
