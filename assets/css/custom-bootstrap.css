@@ -13,6 +13,10 @@ section {
 	font-weight: 700;
 }
 
+.col {
+  padding-right: 0px;
+}
+
 .navbar {
   box-shadow: 1px 1px 1px 1px #adadad3f;
 }
@@ -27,6 +31,10 @@ section {
 
 .form-control {
   border-radius: 200px;
+}
+
+.cart {
+  color: #9B9B9B;
 }
 
 

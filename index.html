@@ -13,7 +13,7 @@
     />
     
     <!-- Custom styling -->
-		<link rel="stylesheet" href="styles/custom-bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/custom-bootstrap.css" />
 	</head>
 	<body>
 		<!-- Navbar -->
@@ -22,7 +22,7 @@
 				<a class="navbar-brand" href="#">
 					<img
 						class="mb-2 mr-1"
-						src="assets/blanja-logo.svg"
+						src="assets/images/blanja-logo.svg"
 						alt="Blanja Logo"
 					/>
 					Blanja
@@ -41,19 +41,25 @@
         
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="mx-auto">
-            <div class="input-group">
-              <input type="text" class="form-control border-right-0" placeholder="Search" aria-label="Example text with button addon" aria-describedby="button-addon1">
-              <span class="input-group-append">
-                <div class="input-group-text bg-transparent">
-                    <i class="fas fa-search"></i>
-                </div>
-              </span>
-            </div>
+						<div class="row">
+							<div class="col">
+								<div class="input-group">
+									<input type="text" class="form-control border-right-0" placeholder="Search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+									<span class="input-group-append">
+										<div class="input-group-text bg-transparent">
+												<i class="fas fa-search"></i>
+										</div>
+									</span>
+								</div>
+							</div>
+							<div class="col">
+								<a href="#" class="btn btn-outline btn-filter">
+									<i class="fas fa-filter"></i>
+								</a>
+							</div>
+						</div>
           </div>
-          <a href="#" class="btn btn-outline mr-auto btn-filter">
-            <i class="fas fa-filter"></i>
-          </a>
-          <a href="#">
+          <a class="cart" href="#">
             <i class="fas fa-shopping-cart"></i>
           </a>
 					<ul class="navbar-nav ml-auto">
