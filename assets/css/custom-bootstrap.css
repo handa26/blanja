@@ -13,6 +13,20 @@ section {
   height: 350px;
 }
 
+#new-items-section {
+  height: 1050px;
+}
+
+#new-items-section .col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#popular-items-section .col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 
 /* === Navbar === */
 .navbar-light .navbar-brand {
@@ -94,5 +108,15 @@ section {
 .box {
   width: 206px;
   height: 220px;
+  margin: 10px;
+}
+
+
+/* ================================================== */
+/* NEW ITEMS SECTION */
+/* ================================================== */
+.card {
+  width: 208px;
+  height: 278px;
   margin: 10px;
 }
