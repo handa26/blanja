@@ -2,8 +2,15 @@
 /* BASIC SETUP */
 /* ================================================== */
 section {
-  height: 900px;
   background-color: #E5E5E5;
+}
+
+#feature-section {
+  height: 250px;
+}
+
+#category-section {
+  height: 350px;
 }
 
 
@@ -13,9 +20,9 @@ section {
 	font-weight: 700;
 }
 
-.col {
+/* .col {
   padding-right: 0px;
-}
+} */
 
 .navbar {
   box-shadow: 1px 1px 1px 1px #adadad3f;
@@ -70,4 +77,22 @@ section {
 .btn-filter {
   width: 40px;
   border-radius: 12px;
+}
+
+
+/* ================================================== */
+/* FEATURE SECTION */
+/* ================================================== */
+.featured-img {
+  width: 456px;
+}
+
+
+/* ================================================== */
+/* CATEGORY SECTION */
+/* ================================================== */
+.box {
+  width: 206px;
+  height: 220px;
+  margin: 10px;
 }
