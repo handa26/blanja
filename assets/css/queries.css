@@ -1,0 +1,34 @@
+/* SMALL DEVICES 0 - 480PX */
+@media only screen and (max-width: 480px) {
+  /* ================================================== */
+  /* LOGIN PAGE */
+  /* ================================================== */
+  body {
+    font-size: 2em;
+  }
+
+  input[type="email"], 
+  input[type="password"], 
+  input[type="name"], 
+  input[type="tel"], 
+  input[type="text"] {
+    width: 9.5rem;
+  }
+
+  .form-input {
+    align-self: center;
+  }
+
+  .btn {
+	  padding: 10px 15px;
+    width: 100%;
+  }
+
+  .submit-btn {
+    width: 190px;
+  }
+
+  .reset {
+    width: 190px;
+  }
+}

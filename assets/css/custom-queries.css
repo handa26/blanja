@@ -1,0 +1,31 @@
+/* SMALL DEVICES 0 - 480PX */
+@media only screen and (max-width: 425px) {
+	/* === Navbar === */
+	.input-group {
+		width: 165px;
+	}
+
+	.filter-icon {
+		padding: 0px 0px;
+	}
+
+	.cart-icon {
+		text-align: right;
+		padding: 0px 20px;
+	}
+
+	/* === CATEGORY SECTION === */
+	.box {
+		width: auto;
+	}
+
+	.category-caption {
+		left: 37%;
+	}
+
+	/* === NEW ITEMS SECTION === */
+	.card {
+		width: auto;
+		height: auto;
+	}
+}
