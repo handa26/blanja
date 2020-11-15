@@ -10,15 +10,15 @@ section {
 }
 
 #feature-section {
-  height: 250px;
+  padding: 50px 0px 50px 0px;
 }
 
 #category-section {
-  height: 350px;
+  padding: 50px 0px 50px 0px;
 }
 
 #new-items-section {
-  height: 1050px;
+  padding: 50px 0px 50px 0px;
 }
 
 #new-items-section .col {
@@ -102,7 +102,7 @@ section {
 /* FEATURE SECTION */
 /* ================================================== */
 .featured-img {
-  width: 100%;
+  width: 455px;
   height: 175px;
   background-size: cover;
   background-repeat: no-repeat;
