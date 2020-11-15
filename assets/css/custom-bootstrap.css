@@ -1,6 +1,10 @@
 /* ================================================== */
 /* BASIC SETUP */
 /* ================================================== */
+html, body {
+  overflow-x: hidden;
+}
+
 section {
   background-color: #E5E5E5;
 }
@@ -98,7 +102,16 @@ section {
 /* FEATURE SECTION */
 /* ================================================== */
 .featured-img {
-  width: 456px;
+  width: 100%;
+  height: 175px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.featured-img h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 55px;
 }
 
 
@@ -106,11 +119,26 @@ section {
 /* CATEGORY SECTION */
 /* ================================================== */
 .box {
+  position: relative;
   width: 206px;
   height: 220px;
   margin: 10px;
 }
 
+.box .shoes-img {
+  margin-top: 55px;
+}
+
+.category-img {
+  margin-top: 30px;
+}
+
+.category-caption {
+  bottom: 5.6rem;
+  color: #fff;
+  position: absolute;
+  left: 3.5rem;
+}
 
 /* ================================================== */
 /* NEW ITEMS SECTION */
@@ -119,4 +147,18 @@ section {
   width: 208px;
   height: 278px;
   margin: 10px;
+}
+
+.card-body h5 {
+  font-size: 16px;
+}
+
+.card-body p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.price-txt {
+  color: #DB3022;
+  margin-bottom: 0px;
 }
