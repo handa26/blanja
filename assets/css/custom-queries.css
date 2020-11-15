@@ -1,5 +1,5 @@
 /* SMALL DEVICES 0 - 480PX */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 480px) {
 	/* === Navbar === */
 	.input-group {
 		width: 165px;
@@ -28,4 +28,18 @@
 		width: auto;
 		height: auto;
 	}
+}
+
+/* SMALL PHONES TO SMALL TABLETS 481PX - 767PX */
+@media only screen and (max-width: 767px) {
+  .category-caption {
+    left: 40%;
+  }
+
+  .btn-login,
+  .btn-signup {
+    display: block;
+    margin: 5px 0px;
+    width: 100%;
+  }
 }
