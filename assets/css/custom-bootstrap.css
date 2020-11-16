@@ -7,7 +7,7 @@ body {
 }
 
 section {
-	background-color: #e5e5e5;
+	background-color: #f1f1f1;
 }
 
 #feature-section {
@@ -36,10 +36,15 @@ section {
 .navbar-light .navbar-brand {
 	color: #db3022;
 	font-weight: 700;
+	transition: color 0.2s;
 }
 
 .navbar-brand {
 	margin-right: 4rem;
+}
+
+.navbar-light .navbar-brand:hover {
+	color:#ad1b0d;
 }
 
 .navbar {
@@ -60,6 +65,11 @@ section {
 
 .cart {
 	color: #9b9b9b;
+	transition: color 0.2s;
+}
+
+.cart:hover {
+	color: #ad1b0d;
 }
 
 .cart-icon {

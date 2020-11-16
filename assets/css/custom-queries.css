@@ -10,8 +10,6 @@
 	}
 
 	.cart-icon {
-		/* text-align: right; */
-		/* padding: 0px 20px; */
 		bottom: 30px;
 	}
 
@@ -54,8 +52,6 @@
   .card {
     width: auto;
     height: auto;
-		/* padding: 20px; */
-		/* right: 10px; */
   }
 
   .fix-box {
