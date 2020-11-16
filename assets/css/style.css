@@ -101,10 +101,6 @@ a {
 }
 
 /* === Form === */
-/* form {
-	padding: 2.5rem 0.625rem;
-} */
-
 .fill-form {
 	/* width: 100%;
 	margin: 0 auto; */
@@ -170,5 +166,10 @@ input[type="text"] {
   padding: 15px 30px;
   border-radius: 200px;
   background-color: #DB3022;
-  color: #fff;
+	color: #fff;
+	transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+	background-color: #ad1b0d;
 }

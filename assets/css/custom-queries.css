@@ -10,8 +10,9 @@
 	}
 
 	.cart-icon {
-		text-align: right;
-		padding: 0px 20px;
+		/* text-align: right; */
+		/* padding: 0px 20px; */
+		bottom: 30px;
 	}
 
 	/* === CATEGORY SECTION === */
@@ -34,7 +35,7 @@
 @media only screen and (max-width: 767px) {
   .category-caption {
     left: 40%;
-  }
+	}
 
   .btn-login,
   .btn-signup {
@@ -44,7 +45,7 @@
   }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
   .card {
     width: 100%;
     height: auto;
@@ -53,5 +54,9 @@
 
   .fix-box {
     margin-right: 0px;
-  }
+	}
+	
+	.cart-icon {
+		bottom: 32px;
+	}
 }

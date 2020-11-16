@@ -38,9 +38,9 @@ section {
 	font-weight: 700;
 }
 
-/* .col {
-  padding-right: 0px;
-} */
+.navbar-brand {
+	margin-right: 4rem;
+}
 
 .navbar {
 	box-shadow: 1px 1px 1px 1px #adadad3f;
@@ -60,6 +60,12 @@ section {
 
 .cart {
 	color: #9b9b9b;
+}
+
+.cart-icon {
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: 5px;
 }
 
 /* === Buttons === */
