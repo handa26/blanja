@@ -50,4 +50,8 @@
     height: auto;
     padding: 20px;
   }
+
+  .fix-box {
+    margin-right: 0px;
+  }
 }
