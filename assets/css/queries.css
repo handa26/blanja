@@ -3,8 +3,14 @@
   /* ================================================== */
   /* LOGIN PAGE */
   /* ================================================== */
-  body {
-    font-size: 2em;
+  #form-container h2 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .text {
+    font-size: 12px;
+    text-align: left;
   }
 
   input[type="email"], 
