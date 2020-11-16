@@ -33,6 +33,11 @@
 
 /* SMALL PHONES TO SMALL TABLETS 481PX - 767PX */
 @media only screen and (max-width: 767px) {
+	.card {
+		width: auto;
+		height: auto;
+	}
+
   .category-caption {
     left: 40%;
 	}
@@ -47,9 +52,10 @@
 
 @media only screen and (max-width: 1024px) {
   .card {
-    width: 100%;
+    width: auto;
     height: auto;
-    padding: 20px;
+		/* padding: 20px; */
+		/* right: 10px; */
   }
 
   .fix-box {
